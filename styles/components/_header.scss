@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  header {
+    background-color: black;
+    .header-container {
+      max-width: 1440px;
+      height: 100px;
+      margin: 0 auto;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: center;
+      .header_content {
+        max-width: 1110px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header-ul {
+          display: flex;
+          gap: 30px;
+          font-size: large;
+        }
+      }
+    }
+    .underLine {
+      max-width: 1110px;
+      width: 100%;
+      margin: 0 auto;
+      background-color: #979797;
+      height: 1px;
+    }
+  }
+  //   .PRODUCTS {
+  //     width: 1100px;
+  //     height: 340px;
+  //     display: flex;
+  //     margin: 0 auto;
+
+  //     .main-container {
+  //       width: 398px;
+  //       height: 346px;
+  //       padding-top: 30px;
+  //       .product {
+  //         color: #979797;
+  //         padding-bottom: 20px;
+  //       }
+  //       .text {
+  //         width: 396px;
+  //         height: 116px;
+  //         color: white;
+  //         font-weight: 600;
+  //       }
+  //       .h1 {
+  //         font-size: xx-large;
+  //       }
+  //       .ExperienceNatural {
+  //         padding-top: 20px;
+  //         font-size: small;
+  //         color: #979797;
+  //       }
+  //       .product-button {
+  //         padding-top: 50px;
+  //       }
+  //       .button {
+  //         width: 160px;
+  //         height: 48px;
+  //         background-color: #d87d4a;
+  //         color: white;
+  //         border-radius: 12px;
+  //       }
+  //     }
+  //   }
+}
