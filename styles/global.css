@@ -174,10 +174,54 @@ body header .header-container .header_content {
   justify-content: space-between;
   align-items: center;
 }
+body header .header-container .header_content .header-ul {
+  display: flex;
+  gap: 30px;
+  font-size: large;
+}
 body header .underLine {
   max-width: 1110px;
   width: 100%;
   margin: 0 auto;
   background-color: #979797;
   height: 1px;
+}
+body .PRODUCTS {
+  width: 300px;
+  height: 340px;
+  display: flex;
+  margin-left: 350px;
+  margin-top: 80px;
+}
+body .PRODUCTS .main-container {
+  width: 398px;
+  height: 346px;
+}
+body .PRODUCTS .main-container .h3 {
+  color: #979797;
+  padding-bottom: 20px;
+}
+body .PRODUCTS .main-container .text {
+  width: 396px;
+  height: 116px;
+  color: white;
+  font-weight: 600;
+}
+body .PRODUCTS .main-container .h1 {
+  font-size: xx-large;
+}
+body .PRODUCTS .main-container .ExperienceNatural {
+  padding-top: 20px;
+  font-size: small;
+  color: #979797;
+}
+body .PRODUCTS .main-container .product-button {
+  padding-top: 50px;
+}
+body .PRODUCTS .main-container .button {
+  width: 160px;
+  height: 48px;
+  background-color: #d87d4a;
+  color: white;
+  border-radius: 12px;
 }/*# sourceMappingURL=global.css.map */
