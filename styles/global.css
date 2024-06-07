@@ -174,10 +174,14 @@ body header .header-container .header_content {
   justify-content: space-between;
   align-items: center;
 }
-body header .header-container .header_content .header-ul {
+body header .header-container .header_content .navigation nav .header-ul {
   display: flex;
   gap: 30px;
+}
+body header .header-container .header_content .navigation nav .header-ul a {
   font-size: large;
+  color: white;
+  text-decoration: none;
 }
 body header .underLine {
   max-width: 1110px;
@@ -201,6 +205,10 @@ body .PRODUCTS .main-container {
 body .PRODUCTS .main-container .h3 {
   color: #979797;
   padding-bottom: 20px;
+}
+body .PRODUCTS .main-container .product {
+  letter-spacing: 10px;
+  color: #979797;
 }
 body .PRODUCTS .main-container .text {
   width: 396px;
