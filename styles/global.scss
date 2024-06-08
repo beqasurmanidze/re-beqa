@@ -1,6 +1,7 @@
 @import "utils/reset";
-@import "./utils/font";
-@import "./utils/variables";
+@import "utils/variables";
+@import "utils/mixin";
+@import "utils/fonts";
 @import "utils/extend";
-@import "./components/header";
+@import "components/header";
 @import "components/main";

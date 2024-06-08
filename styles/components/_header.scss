@@ -1,22 +1,23 @@
 body {
-  background-color: black;
   header {
     background-color: black;
     .header-container {
       max-width: 1440px;
       height: 100px;
       margin: 0 auto;
-      background-color: rgb(0, 0, 0);
       display: flex;
       justify-content: center;
       .header_content {
         max-width: 1110px;
         width: 100%;
-        background-color: black;
         display: flex;
         justify-content: space-between;
         align-items: center;
         .navigation {
+          @media (max-width: 700px) {
+            display: none;
+          }
+
           nav {
             .header-ul {
               display: flex;
@@ -28,6 +29,10 @@ body {
               }
             }
           }
+        }
+        .cart .cart-edit:hover {
+          background-color: orange;
+          animation-duration: 250ms;
         }
       }
     }
