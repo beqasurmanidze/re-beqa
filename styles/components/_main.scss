@@ -56,10 +56,67 @@ body {
     display: flex;
     justify-content: center;
     background-color: white;
+    margin-top: 150px;
 
     .product-list-container {
       max-width: 1110px;
       width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+      .hp {
+        width: 350px;
+        height: 304px;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+      }
+      .speaker {
+        width: 350px;
+        height: 304px;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+      }
+      .earphones {
+        width: 350px;
+        height: 304px;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+      }
+    }
+  }
+  .beforefooter {
+    width: 1110px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    .beforefooter-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 80px;
+      .paragraph {
+        font: 500;
+        font-size: x-large;
+        color: #979797;
+      }
+      .beforefooter-container {
+        padding-bottom: 30px;
+        font-size: xx-large;
+        font-weight: bolder;
+      }
     }
   }
 }

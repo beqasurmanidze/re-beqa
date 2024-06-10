@@ -257,8 +257,64 @@ body .product-lists {
   display: flex;
   justify-content: center;
   background-color: white;
+  margin-top: 150px;
 }
 body .product-lists .product-list-container {
   max-width: 1110px;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+body .product-lists .product-list-container .hp {
+  width: 350px;
+  height: 304px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+body .product-lists .product-list-container .speaker {
+  width: 350px;
+  height: 304px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+body .product-lists .product-list-container .earphones {
+  width: 350px;
+  height: 304px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+body .beforefooter {
+  width: 1110px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+body .beforefooter .beforefooter-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+}
+body .beforefooter .beforefooter-text .paragraph {
+  font: 500;
+  font-size: x-large;
+  color: #979797;
+}
+body .beforefooter .beforefooter-text .beforefooter-container {
+  padding-bottom: 30px;
+  font-size: xx-large;
+  font-weight: bolder;
 }/*# sourceMappingURL=global.css.map */
