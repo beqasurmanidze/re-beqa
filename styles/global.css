@@ -191,9 +191,16 @@ body header .header-container .header_content .navigation nav .header-ul a {
   color: white;
   text-decoration: none;
 }
-body header .header-container .header_content .cart .cart-edit:hover {
-  background-color: orange;
-  animation-duration: 250ms;
+body header .header-container .header_content .cart a .cartIcon {
+  width: 24px;
+  height: 20px;
+}
+body header .header-container .header_content .cart a .cartIcon path {
+  transition: 250ms;
+}
+body header .header-container .header_content .cart a:hover .cartIcon path {
+  fill: orange;
+  transition: 250ms;
 }
 body header .underLine {
   max-width: 1110px;
@@ -317,4 +324,45 @@ body .beforefooter .beforefooter-text .beforefooter-container {
   padding-bottom: 30px;
   font-size: xx-large;
   font-weight: bolder;
+}
+body .swiperMain {
+  width: 1110px;
+  height: 351px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: flex;
+  gap: 30px;
+}
+body .swiperMain .firstSwiper {
+  width: 358px;
+  height: 240px;
+  border: 2px solid black;
+}
+body .swiperMain .firstSwiper .SarahText {
+  padding: 45px;
+}
+body .swiperMain .firstSwiper .SarahText .Sarah {
+  padding-bottom: 12px;
+}
+body .swiperMain .secondSwiper {
+  width: 358px;
+  height: 240px;
+  border: 2px solid black;
+}
+body .swiperMain .secondSwiper .alexText {
+  padding: 45px;
+}
+body .swiperMain .secondSwiper .alexText .alex {
+  padding-bottom: 12px;
+}
+body .swiperMain .thirdSwiper {
+  width: 358px;
+  height: 240px;
+  border: 2px solid black;
+}
+body .swiperMain .thirdSwiper .jamesText {
+  padding: 45px;
+}
+body .swiperMain .thirdSwiper .jamesText .james {
+  padding-bottom: 12px;
 }/*# sourceMappingURL=global.css.map */

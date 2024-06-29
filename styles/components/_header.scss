@@ -30,9 +30,24 @@ body {
             }
           }
         }
-        .cart .cart-edit:hover {
-          background-color: orange;
-          animation-duration: 250ms;
+        .cart {
+          a {
+            .cartIcon {
+              width: 24px;
+              height: 20px;
+              path {
+                transition: 250ms;
+              }
+            }
+            &:hover {
+              .cartIcon {
+                path {
+                  fill: orange;
+                  transition: 250ms;
+                }
+              }
+            }
+          }
         }
       }
     }
